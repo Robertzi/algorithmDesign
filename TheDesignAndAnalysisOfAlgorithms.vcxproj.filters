@@ -24,6 +24,9 @@
     <ClInclude Include="utiliy.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="algorithms\algorithms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -33,6 +36,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="utiliy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\SelectSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\BubbleSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\BruteForceStringMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\BruteForceClosestPoints.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

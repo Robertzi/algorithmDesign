@@ -52,3 +52,11 @@ void printArray(int *p, int col, int row)
 		if (i%col == col - 1) std::cout << std::endl;
 	}
 }
+
+void Swap(void *a, void *b, size_t s) {
+	void *t = malloc(s);
+	memcpy(t, a, s);
+	memcpy(a, b, s);
+	memcpy(b, t, s);
+	free(t);
+}
