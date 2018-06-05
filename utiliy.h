@@ -1,8 +1,8 @@
 #pragma once
 
-int randRange(int min = 0, int max = 99);
-int * Randoms(int min = 0, int max = 99, int number = 10);
-int * InputFromFile(const char *s ,int number);
+int randRange(int = 0, int = 99);
+int * Randoms(int = 0, int = 99, int  = 10);
+int * InputFromFile(const char * ,int );
 
-void Swap(void *a, void *b, size_t s = 4);
-void printArray(int *p ,int col, int row = 1);
+void Swap(void *, void *, size_t = 4);
+void printArray(int *, int, int = 1);

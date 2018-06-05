@@ -1,6 +1,9 @@
 #pragma once
 
-void SelectSort(int *arr, int length);
-void BubbleSort(int *arr, int length);
-int BruteForceStringMatch(char *str, char *k);
-double BruteForceClosestPoints(int *poins, int number);
+void SelectSort(int *, int);
+void BubbleSort(int *, int);
+int BruteForceStringMatch(char *, char *);
+double BruteForceClosestPoints(int *, int);
+void  InsertionSort(int *, int);
+
+int BinarySearch(int *, int, int);

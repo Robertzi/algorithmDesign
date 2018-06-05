@@ -154,9 +154,11 @@
     <ClInclude Include="utiliy.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="algorithms\BinarySearch.cpp" />
     <ClCompile Include="algorithms\BruteForceClosestPoints.cpp" />
     <ClCompile Include="algorithms\BruteForceStringMatch.cpp" />
     <ClCompile Include="algorithms\BubbleSort.cpp" />
+    <ClCompile Include="algorithms\InsertionSort.cpp" />
     <ClCompile Include="algorithms\SelectSort.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

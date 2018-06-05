@@ -50,5 +50,11 @@
     <ClCompile Include="algorithms\BruteForceClosestPoints.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="algorithms\InsertionSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\BinarySearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
